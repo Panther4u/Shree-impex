@@ -192,63 +192,63 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
+    img: "/GOT.avif",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
+    img: "/SA8000.avif",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
+    img: "ISO.avif",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
+    img: "/OEKO.avif",
     nameImg: "/streamName.svg",
   },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "GOTS",
+    desc: "The Organic Content Standard 100 (OCS) certifies non-food products with 95-100% organic material, verifying and tracking organic content from source to final product, certified by CONTROL UNION.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/GOT.avif",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "SA8000",
+    desc: "SA 8000 is an international certification that promotes socially responsible workplace practices, certified by TUV Nord.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/SA8000.avif",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "ISO 9001:2015",
+    desc: "ISO 9001 is an international standard for quality management systems, ensuring consistent products and services that meet customer and regulatory requirements, certified by TUV.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "ISO.avif",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "OEKO TEX",
+    desc: "STANDARD 100 by OEKO-TEX® is one of the world's best-known labels for textiles tested for harmful substances. It stands for customer confidence and high product safety.Certified by Hohenstein",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/OEKO.avif",
   },
 ];
 
