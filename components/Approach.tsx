@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We'll collaborate to map out your textile import and export business goals, target markets, and key product offerings. We'll discuss strategies for showcasing your products and defining your market presence."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -50,9 +48,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where the textile business magic happens! Based on the established strategy and market research, I'll help position your import/export products to attract the right customers and partners."
         >
           <CanvasRevealEffect
             animationSpeed={3}
