@@ -191,25 +191,25 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "GOTS",
     img: "/GOT.avif",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "SA8000",
     img: "/SA8000.avif",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "ISO 9001:2015",
     img: "ISO.avif",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "OEKO TEX",
     img: "/OEKO.avif",
     nameImg: "/streamName.svg",
   },
