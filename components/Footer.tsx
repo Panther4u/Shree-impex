@@ -54,8 +54,8 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="cursor-pointer text-blue-400 hover:underline"
               >
-                Address: 123 Textile Road, Impex City, Industrial Park, State,
-                Country
+                Address: No:59/1, Kulathupalayam Road, Vengamedu, Karur,
+                639006
               </a>
 
               {/* Phone number */}
@@ -65,7 +65,7 @@ const Footer = () => {
 
               {/* Email address */}
               <p onClick={handleEmailClick} className="cursor-pointer mt-2">
-                Email: shreeamuthajothiimpex.com
+              <span className="text-purple font-semibold">PALRAJ</span> : MANAGING DIRECTOR
               </p>
             </div>
           }
