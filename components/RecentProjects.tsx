@@ -93,29 +93,30 @@ const RecentProjects = () => {
       <h1 className="heading">
         Our Company <span className="text-purple">Videos</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-10 mt-10 ">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[20rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[20rem] flex items-center justify-center sm:w-96 w-[80vw]  rounded-lg"
             key={item.id}
           >
             <PinContainer
               title="/shreeamuthajothiimpex.com"
               // href="https://twitter.com/mannupaaji"
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                />
+            <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 rounded-lg">
+              <div
+                className="relative w-full h-full overflow-hidden lg:rounded-3xl rounded-lg"
+                style={{ backgroundColor: "#13162D" }}
+              >
+                <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
               </div>
+              <img
+                src={item.img}
+                alt="cover"
+                className="z-10 absolute bottom-0 w-full h-auto rounded-lg"
+              />
+            </div>
+
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
