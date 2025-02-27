@@ -152,6 +152,22 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "",
   },
+  {
+    id: 2,
+    title: "Infrastructure",
+    des: "",
+    img: "/bed.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "",
+  },
+  {
+    id: 3,
+    title: "Eco-Conscious Way of Work",
+    des: "",
+    img: "/table.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "",
+  },
 ];
 
 export const testimonials = [
