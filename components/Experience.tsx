@@ -32,9 +32,9 @@ const Experience = () => {
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
-                className="lg:w-32 md:w-20 w-16"
+                className="lg:w-32 md:w-20 w-16 rounded-full"
               />
-              <div className="lg:ms-5 text-center">
+              <div className="lg:ms-5 text-center lg:text-start">
                 <h1 className="text-xl md:text-2xl font-bold">{card.title}</h1>
                 <p className="text-white-100 mt-3 font-semibold">{card.desc}</p>
               </div>
