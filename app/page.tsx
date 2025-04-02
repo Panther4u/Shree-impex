@@ -1,7 +1,6 @@
 "use client";
 
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
@@ -13,7 +12,11 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 bg-[#f7f7f7]"> {/* Apply mild background color */}
+      {/* Background Color (mild) */}
+      <div className="absolute inset-0 bg-[#f7f7f7] -z-10"></div> {/* Apply mild background color */}
+      
+      {/* Main Content */}
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
