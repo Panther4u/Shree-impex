@@ -12,7 +12,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
-    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 bg-[#f7f7f7]"> {/* Apply mild background color */}
+    <main className="relative flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-0 bg-[#f7f7f7]"> {/* Apply mild background color */}
       {/* Background Color (mild) */}
       <div className="absolute inset-0 bg-[#f7f7f7] -z-10"></div> {/* Apply mild background color */}
       
